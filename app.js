@@ -28,16 +28,16 @@
 // //Promise
 
 
-const isFactorPromis = (num1, num2) => {
-    return new Promise((resolve, reject) => {
-        if (num1 % num2 === 0) {
-            resolve(`${num2} is factor of ${num1}`);
-        } else {
-            reject(`${num2} is NOT factor of ${num1} `);
-        }
-    })
+// const isFactorPromis = (num1, num2) => {
+//     return new Promise((resolve, reject) => {
+//         if (num1 % num2 === 0) {
+//             resolve(`${num2} is factor of ${num1}`);
+//         } else {
+//             reject(`${num2} is NOT factor of ${num1} `);
+//         }
+//     })
 
-}
+// }
 
 
 // isFactorPromis(12, 5)
@@ -170,11 +170,3 @@ const loadData = () => {
 }
 
 loadData();
-
-let number = 0
-do {
-
-    number--;
-    console.log(number);
-}
-while (number > 0)
