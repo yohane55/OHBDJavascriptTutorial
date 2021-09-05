@@ -157,7 +157,7 @@ const showNoData = (message) => {
     </div>`
 }
 
-const voaFeedUrl = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Famharic.voanews.com%2Fapi%2Fzy--yeqv%24y"
+const voaFeedUrl = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Famharic.voanews.com%2Fapi%2Fzt%24gteitjt"
 
 const dwFeedUrl = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Frss.dw.com%2Fxml%2Frss-amh-news"
 
